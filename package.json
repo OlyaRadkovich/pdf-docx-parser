@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "dev": "ts-node --watch src/index.ts",
+    "dev:new": "ts-node --watch src/index.ts",
+    "dev:legacy": "node --loader ts-node/esm --watch src/index.ts"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "mammoth": "^1.11.0",
+    "pdf-parse": "^2.4.5"
+  }
+}
